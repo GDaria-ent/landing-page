@@ -1,0 +1,8 @@
+.app-header {
+  @apply relative py-5 px-5 2xl:px-32 w-full mx-auto flex justify-between items-center;
+}
+
+.app-header-mobile {
+  @apply fixed inset-0 h-screen bg-accent w-full z-50;
+  @apply px-5 pt-12 pb-10 text-base-weak;
+}

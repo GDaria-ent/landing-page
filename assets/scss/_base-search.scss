@@ -1,0 +1,5 @@
+.search-wrapper {
+  @apply py-3 px-5 w-full flex items-center space-x-4 overflow-hidden;
+  @apply text-base-strong border bg-base-weak;
+  @apply rounded-lg drop-shadow-lg;
+}

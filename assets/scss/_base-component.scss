@@ -1,0 +1,13 @@
+.base-component {
+  @apply flex items-center justify-center shrink-0 py-2.5 px-6;
+  @apply rounded-lg hover:opacity-70 transition-all duration-300;
+
+  &--link {
+    @apply bg-base-weak text-base-strong;
+    @apply border drop-shadow-lg;
+  }
+
+  &--button {
+    @apply bg-accent text-base-weak;
+  }
+}

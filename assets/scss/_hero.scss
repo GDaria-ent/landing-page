@@ -1,0 +1,8 @@
+.hero-wrapper {
+  @apply w-full lg:h-[41rem] relative lg:grid grid-cols-2 overflow-hidden;
+  @apply bg-complement-weak;
+}
+
+.hero-wrapper__info-block {
+  @apply relative flex justify-center items-center py-8 px-5 overflow-hidden;
+}

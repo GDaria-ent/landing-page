@@ -1,0 +1,44 @@
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+
+body {
+  @apply text-base-strong font-regular;
+}
+
+*,
+::before,
+::after {
+  @apply border-faint;
+}
+
+:focus-visible {
+  @apply outline-none;
+}
+
+button {
+  @apply bg-transparent;
+  &:focus {
+    outline: none;
+  }
+}
+
+input,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+.container--wide {
+  max-width: 1760px;
+}
+
+.grid-template--base {
+  @apply  grid md:grid-cols-2 lg:grid-cols-3 gap-6;
+}

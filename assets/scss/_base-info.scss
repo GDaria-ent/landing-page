@@ -1,0 +1,23 @@
+.base-info-wrapper {
+  @apply relative z-20 flex flex-col items-start max-w-[35rem];
+
+  &--large{
+    & h2 {
+      @apply text-3xl xs:text-6xl;
+    }
+
+    & p {
+      @apply text-lg xs:text-2xl text-faint-strong mt-5;
+    }
+  }
+
+  &--md{
+    & h2 {
+      @apply text-3xl lg:text-5xl font-bold;
+    }
+
+    & p {
+      @apply text-lg text-faint-strong mt-5;
+    }
+  }
+}

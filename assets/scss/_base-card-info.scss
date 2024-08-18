@@ -1,0 +1,11 @@
+.base-card-info {
+  @apply flex flex-col;
+
+  &--center {
+    @apply items-center;
+  }
+
+  &--start {
+    @apply items-start;
+  }
+}
