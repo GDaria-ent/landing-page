@@ -88,7 +88,7 @@ const cardsList: ProductCard[] = [
       <div class="mt-8 sm:mt-16 grid-template--base">
         <houses-card v-for="(item, index) in cardsList" :key="index" :data="item" />
       </div>
-      <base-buttons-duo class="mt-8 sm:mt-20"/>
+      <base-buttons-duo class="flex justify-center mt-8 sm:mt-20"/>
     </div>
   </section>
 </template>

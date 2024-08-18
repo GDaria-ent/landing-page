@@ -29,7 +29,7 @@ const heroInfo: Info= {
       </base-info>
     </div>
     <figure class="overflow-hidden h-full hidden lg:flex">
-      <img src="/images/hero-image.png" class="w-full h-full object-cover"/>
+      <img src="/images/hero-image.png" alt="Room photo" class="w-full h-full object-cover"/>
     </figure>
   </section>
 </template>

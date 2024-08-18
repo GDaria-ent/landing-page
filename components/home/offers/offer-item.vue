@@ -24,7 +24,7 @@ const isOdd = computed(() => {
       <base-buttons-duo class="mt-6"/>
     </div>
     <figure class="rounded-lg w-full col-span-6 overflow-hidden" :class="isOdd ? 'order-1' : 'order-2'">
-      <img :src="data.image" class="w-full h-full fit-cover"/>
+      <img :src="data.image" class="w-full h-full fit-cover" alt="Room photo"/>
     </figure>
   </div>
 </template>
